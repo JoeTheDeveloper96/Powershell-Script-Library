@@ -1,5 +1,5 @@
 ﻿# Define the directory to check for duplicate files
-$directoryPath = "D:\pictures to sort 2\iCloud Photos"
+$directoryPath = "" #Enter your filepath here!
 
 # Get all files in the directory
 $files = Get-ChildItem -Path $directoryPath -File

@@ -1,16 +1,141 @@
-# Cache objects
-packer_cache/
+## Visual Studio temporary files, build results, and misc files
 
-# Crash log
-crash.log
+# User-specific files
+*.rsuser
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
 
-# https://www.packer.io/guides/hcl/variables
-# Exclude all .pkrvars.hcl files, which are likely to contain sensitive data, 
-# such as password, private keys, and other secrets. These should not be part of 
-# version control as they are data points which are potentially sensitive and 
-# subject to change depending on the environment.
-#
-*.pkrvars.hcl
+# MonoDevelop/Xamarin Studio user files
+*.userprefs
 
-# For built boxes
-*.box
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+
+# Visual Studio working folder
+.vs/
+
+# Test results
+[Tt]est[Rr]esult*/
+[Bb]uild[Ll]og.*
+
+# .NET Core
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# ASP.NET scaffolding
+ScaffoldingReadMe.txt
+
+# StyleCop
+StyleCopReport.xml
+
+# Rider / ReSharper / JetBrains
+_ReSharper*/
+*.DotSettings.user
+.idea/
+
+# NuGet
+*.nupkg
+**/[Pp]ackages/*
+!**/[Pp]ackages/build/
+*.snupkg
+*.nuget.props
+*.nuget.targets
+
+# Azure Functions
+bin/
+obj/
+appsettings.*.local.json
+
+# Node (for SPA/Blazor/JS assets)
+node_modules/
+
+# Logs
+*.log
+
+# ======================================================================
+#   SENSITIVE FILES — ALWAYS IGNORED
+# ======================================================================
+
+# Application configuration
+appsettings.json
+appsettings.*.json
+app.config
+web.config
+
+# Environment variables
+.env
+.env.*
+*.environment
+*.secrets
+
+# JSON/YAML/XML configs that may contain credentials
+*.secret.json
+*.secrets.json
+*.config.json
+*.credentials.json
+*.key.json
+*.keys.json
+*.secure.json
+*.env.json
+*.vault.json
+
+# Certificate files
+*.pfx
+*.p12
+*.cer
+*.crt
+*.pem
+*.key
+
+# Private keys
+id_rsa
+id_rsa.pub
+id_ecdsa
+id_ecdsa.pub
+id_ed25519
+id_ed25519.pub
+
+# Token, API key, and auth files
+*.token
+*.jwt
+*.apiKey
+*.apikey
+*.auth
+*.auth.json
+
+# Database files
+*.db
+*.sqlite
+*.sqlite3
+*.mdf
+*.ldf
+*.bak
+
+# Dump files
+*.dmp
+*.sql
+*.sql.gz
+
+# Backup configs
+*.bak
+*.old
+*.orig
+
+# ======================================================================
+# End sensitive files section
+# ======================================================================
+/.gitignore
